@@ -1,19 +1,23 @@
 .left-aside {
   width: 100%;
-  text-align: left;
 }
 
 .categories > div > h3 {
   margin-bottom: 20px;
+  text-align: left;
 }
 .categories > div > p {
   color: gray;
+  text-align: left;
 }
 .categories:hover{
   cursor: pointer;
 }
 .categories>div>p:hover{
   color: black;
+}
+.filter{
+  text-align: left;
 }
 
 .filter div {
@@ -23,12 +27,14 @@
   width: 20px;
   height: 20px;
   margin: 10px;
+
 }
 
 .filter > div {
   display: flex;
   flex-direction: column;
   gap: 2%;
+  
 }
 
 .filter > div > div {
