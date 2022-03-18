@@ -1,0 +1,40 @@
+.searchbar-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchbar-div > div > input {
+  padding: 0 1%;
+  width: 90%;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-bottom: .5px solid black;
+}
+
+.img-div {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-div > div {
+  margin: 2%;
+  width: 220px;
+  border-radius: 15px;
+}
+
+.img-div > div > img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* 
+@media (max-width: 700px) {
+  .img-div {
+    column-count: 2;
+
+  }
+} */
