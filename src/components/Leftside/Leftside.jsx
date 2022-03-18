@@ -20,7 +20,10 @@ function Leftside() {
           <p>Household</p>
         </div>
       </div>
+      <div className="hrtag">
       <hr />
+
+      </div>
       <div className="filter">
         <h3>Filter</h3>
         <h4>Type</h4>
@@ -38,7 +41,10 @@ function Leftside() {
             <label>BOGO and more</label>
           </div>
         </div>
-        <hr />
+        <div className="hrtag">
+      <hr />
+
+      </div>
         <h4>Discount</h4>
         <div>
           <div>
@@ -50,7 +56,10 @@ function Leftside() {
             <label>50-80% off</label>
           </div>
         </div>
-        <hr />
+        <div className="hrtag">
+      <hr />
+
+      </div>
       </div>
     </div>
   );
