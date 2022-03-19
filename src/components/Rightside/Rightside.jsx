@@ -3,6 +3,7 @@ import "./Rightside.css";
 import { data } from "../Data/data";
 
 function Rightside() {
+  
   return (
     <div className="right-aside">
       <div className="searchbar-div">
