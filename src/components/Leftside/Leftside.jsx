@@ -29,8 +29,8 @@ function Leftside() {
         <h4>Type</h4>
         <div>
           <div>
-            <input type="checkbox" for="one" />
-            <label for="one">Only Coupons</label>
+            <input type="checkbox"  />
+            <label >Only Coupons</label>
           </div>
           <div>
             <input type="checkbox" name="" />
@@ -48,8 +48,8 @@ function Leftside() {
         <h4>Discount</h4>
         <div>
           <div>
-            <input type="checkbox" for="one" />
-            <label for="one">0-49% off</label>
+            <input type="checkbox"  />
+            <label >0-49% off</label>
           </div>
           <div>
             <input type="checkbox" name="" />
