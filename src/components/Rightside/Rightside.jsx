@@ -26,6 +26,8 @@ function Rightside() {
         {data.map((el, i) => (
           <div key={i}>
             <img src={el.image} alt="img"></img>
+          <h3 className="ptext">Brands</h3>
+          <p  className="ptext">Collections </p>
           </div>
         ))}
       </div>
