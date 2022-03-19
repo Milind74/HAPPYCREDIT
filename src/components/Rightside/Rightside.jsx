@@ -15,7 +15,7 @@ function Rightside() {
   const handleimage = (loading) => {
     setImage(loading);
     handleOpen();
-    console.log("milind")
+    // console.log("milind")
   };
   return (
     <div className="right-aside">
