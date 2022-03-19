@@ -1,9 +1,22 @@
-import React from "react";
+import React,{useState,useRef } from "react";
 import "./Rightside.css";
 import { data } from "../Data/data";
 
+import Modal from "@mui/material/Modal";
+
 function Rightside() {
-  
+  const [open, setOpen] = useState(false); //hook for modal
+  const [image, setImage] = useState(""); //hook for modal
+
+  // modal logic
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
+  const handleimage = (loading) => {
+    setImage(loading);
+    handleOpen();
+    console.log("milind")
+  };
   return (
     <div className="right-aside">
       <div className="searchbar-div">
@@ -25,12 +38,28 @@ function Rightside() {
       <div className="img-div">
         {data.map((el, i) => (
           <div key={i}>
-            <img src={el.image} alt="img"></img>
+            <img  onClick={() => {
+                    handleimage(el.image);
+                  }}src={el.image} alt="img"></img>
           <h3 className="ptext">Brands</h3>
           <p  className="ptext">Collections </p>
           </div>
         ))}
       </div>
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
+        <div className="modal">
+          <div className="loadingimg">
+            <img src={image} alt="loading"></img>
+          </div>
+         
+        </div>
+      </Modal>
+
     </div>
   );
 }
