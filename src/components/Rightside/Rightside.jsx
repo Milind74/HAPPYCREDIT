@@ -42,7 +42,7 @@ function Rightside() {
                     handleimage(el.image);
                   }}src={el.image} alt="img"></img>
           <h4 className="ptext">{el.name}</h4>
-          <p  className="ptext">Collections </p>
+          <p className="ptext">{el.items} </p>
           </div>
         ))}
       </div>

@@ -35,8 +35,9 @@
 
 }
 .ptext{
-  line-height: 5px;
-  text-align:start
+  line-height: 1px;
+  text-align:start;
+  font-size: 17px;
 }
 
 .modal {

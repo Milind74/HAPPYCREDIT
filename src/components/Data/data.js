@@ -1,6 +1,7 @@
 export const data = [
   {
     name: "Reebok",
+    items:"Step up your style",
     distance: 10,
     rating: 2,
     online: false,
@@ -10,6 +11,7 @@ export const data = [
   },
   {
     name: "Tommy Hilfiger",
+    items:"Classic Designing",
     distance: 10,
     rating: 2,
     online: true,
@@ -18,7 +20,8 @@ export const data = [
       "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/28272ba4-2cce-4468-9caa-eefeec516042.jpeg&w=640&q=75",
   },
   {
-    name: "Ride ",
+    name: "Kayaka ",
+    items:"Ready for take off",
     distance: 20,
     rating: 5,
     online: false,
@@ -28,6 +31,7 @@ export const data = [
   },
   {
     name: "Espa",
+    items:"Natural skincare",
     distance: 20,
     rating: 2,
     online: true,
@@ -36,7 +40,8 @@ export const data = [
       "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/574c903f-615d-49de-aa97-5c9d25381136.png&w=640&q=75",
   },
   {
-    name: "Apple",
+    name: "Microsoft",
+    items:"Expect more from us",
     distance: 15,
     rating: 4,
     online: true,
@@ -46,6 +51,7 @@ export const data = [
   },
   {
     name: "Nike",
+    items:"Time for a new pair",
     distance: 17,
     rating: 4,
     online: false,
@@ -55,6 +61,7 @@ export const data = [
   },
   {
     name: "Kenton ",
+    items:"Sweet dreams",
     distance: 10,
     rating: 4,
     online: true,
@@ -64,6 +71,7 @@ export const data = [
   },
   {
     name: "Skechers",
+    items:"The favorite shoe style",
     distance: 10,
     rating: 4,
     online: false,
@@ -72,7 +80,10 @@ export const data = [
       "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/91c18c5d-0908-448e-beed-1fd162be2646.jpeg&w=640&q=75",
   },
   {
-    name: "Frames",
+
+    name: "Booking.com",
+    items:"Book your next stay",
+
     distance: 25,
     rating: 5,
     online: false,
@@ -82,6 +93,7 @@ export const data = [
   },
   {
     name: "Europcar",
+    items:"Drive anywhere",
     distance: 10,
     rating: 2,
     online: true,
@@ -90,7 +102,9 @@ export const data = [
       "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/e8c37185-6c61-4b37-9085-99c0573e8202.png&w=640&q=75",
   },
   {
+    
     name: "Caesars Rewards",
+    items:"Vacay dreams",
     distance: 20,
     rating: 5,
     online: false,
@@ -100,6 +114,7 @@ export const data = [
   },
   {
     name: "FullCity",
+    items:"Travel the world",
     distance: 20,
     rating: 5,
     online: true,
