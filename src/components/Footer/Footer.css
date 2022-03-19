@@ -320,11 +320,12 @@
 
     .social {
         display: grid;
-        grid-template-columns: repeat(4, 24%);
+        grid-template-columns: repeat(1, 24%);
         width: 1em;
         height: 1em;
         border: inherit;
         margin: 0 0.4rem;
+        display: hidde;
     }
 
     .rightarrow {
