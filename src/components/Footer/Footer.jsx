@@ -43,7 +43,7 @@ export const Footer = () => {
                 <br/>
 
                 <div className="social">
-                    <div>
+                    <div className=''>
                     <FaFacebookF  className="socialMedia"/>
                     </div>
                     <div>
